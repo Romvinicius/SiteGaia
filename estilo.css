@@ -1,0 +1,190 @@
+.header{
+    color: #32b9cd;
+    border-bottom: 3px solid #eee9c7;
+    /* border: 3px solid yellow; */
+}
+
+body{
+    margin: 0;
+    background-color: #002b2b;
+    font-family: monospace;
+}
+
+.GaiaLogo {
+    width: 40px;
+    height: 40px;
+
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    /* border: 3px solid red; */
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+    width: 600px;
+    align-items: center;
+    color: #eee9c7;
+    /* border: 3px solid blue; */
+}
+
+.agora{
+    font-weight: 1000;
+}
+
+.banner{
+    height: 500px;
+    background-image: url(.//imgs/andre-taissin-hnyZg63sRCY-unsplash.jpg);
+    background-size: cover;
+    
+}
+
+.banner .container{
+    height: 100%;
+    display: flex;
+   margin-left: 150px;
+    align-items: center;
+    color: white;
+    float: left;
+    
+}
+
+.banner .container p{
+    
+    width: 280px;
+    margin:0;
+    padding:0;
+    font-size: 36px;
+    
+   
+}
+
+.banner span{
+    font-weight: bolder;
+}
+
+
+
+li a{
+    text-decoration: none;
+    color: #eee9c7;
+}
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 30px;
+    border: 2px solid #32b9cd;
+    border-radius: 10px;
+}
+
+.btn{
+    font-family: monospace;
+    border: 0;
+    border-radius: 4px;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 0;
+    color: white;
+    background-color: #e6005a;
+    width: 120px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.banner .card{
+    background-color: #e5e5e5;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #e6005a;
+}
+
+/* A partir daqui é o código é referente ao footer e missão, visão e valores */
+
+.social{
+    background-color: #e5e5e5;
+    padding: 50px 0;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 33%;
+}
+
+.box img{
+    width: 150px;
+    align-self: center;
+}
+
+.box h4{
+    color: #e6005a;
+    margin: 30px 0 0 0;
+}
+
+.box p{
+    color: black;
+}
+
+.social .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer{
+    border-top: #eee9c7 solid 3px;
+    background-color: #002b2b;
+    height: 150px;
+    color: #eee9c7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h4{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 300px;
+}
+
+.footer .Redes {
+    width: 300px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    float: right;
+    justify-content: space-around;
+
+    
+}
+
+.footer .Redes .logoRede {
+    width: 30px;
+    height: 30px;
+}
